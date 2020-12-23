@@ -44,7 +44,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 app.get('/', index);
 app.post('/request-translation', requestTranslation);
-app.listen(port, () => console.log(`Listening on port ${port}!`));
+app.listen(port, () => console.log(`Listening on ort ${port}!`));
 
 // [END getting_started_background_app_main]
 
